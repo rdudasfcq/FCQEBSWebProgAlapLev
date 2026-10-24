@@ -1,0 +1,20 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  background-color: #96d4d4;
+  border-color: grey;
+}
+
+.overflowed-cell {
+  width: 110px; /* Ez kell, hogy megmaradjon a cella mérete */
+  height: 110px; /* Ez kell, hogy megmaradjon a cella mérete */
+  overflow: auto; /*Ezt át lehet állítani scroll-ra, különbség csak annyi, hogy ekkor BIZTOS lesz csúszka*/
+  box-sizing: border-box; /* Abszolút méret */
+  padding: 5px; /* Ne lógjon bele a csúszkába */
+}

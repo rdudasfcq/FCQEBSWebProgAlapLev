@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista készítése</title>
+    <style>
+        .inline{
+            list-style-type: upper-latin;
+            color: red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>a. Rendezetlen lista</h1>
+
+    <ul>
+        <li>piros</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ul>
+
+    <ul style="color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: square;
+    margin-left: -4px;">
+        <li>sárga</li>
+        <li>fehér</li>
+        <li>zöld</li>
+        <li>kék</li>
+    </ul>
+
+    <h1>b. Rendezett lista</h1>
+
+    <ol>
+        <li>pink</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ol>
+    
+    <h1>c. Nagybetűk</h1>
+
+    <ol style="list-style-type: upper-latin;">
+        <li>piros</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ol>
+
+    <h1>d. Római számok</h1>
+
+    <ol style="list-style-type: upper-roman;" type="1">
+        <li>piros</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ol>
+    
+    <h1>e. Inline style</h1>
+
+    <ol class="inline">
+        <li>piros</li>
+        <li>kék</li>
+        <li>sárga</li>
+        <li>barna</li>
+    </ol>
+    
+    <h1>f. HTML Description Lists</h1>
+
+    <dl style="color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <style>dt{font-weight: bold;}</style>
+        <dt>Farkas</dt>
+        <dd>Kutyaszerű ragadozó</dd>
+        <dt>Fájl</dt>
+        <dd>Szöveges állomány</dd>
+        <dt>Oroszlán</dt>
+        <dd>Macskaszerű ragadozó emlős</dd>
+        <dd>AZ állatok királya</dd>
+    </dl>
+
+    <h1>g. Embedded HTML Lists</h1>
+
+    <h3 style="color: pink;">Kedvenc reggeli italaim</h3>
+    <ul>
+        <li>piros</li>
+        <li>kék</li>
+        <ul>
+            <li>Fekete</li>
+            <li>Zöld</li>
+        </ul>
+        <li>sárga</li>
+        <li>barna</li>
+    </ul>
+        
+    <h1>h. Control List Counting</h1>
+
+    <ol start="5">
+        <li>piros</li>
+        <li>kék</li>
+        <li>sárga</li>
+    </ol>
+
+</body>
+</html>
